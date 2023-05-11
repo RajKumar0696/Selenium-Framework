@@ -1,7 +1,8 @@
 import pytest
+
 from PageObjects.LogIn_page import LogInPage
 from PageObjects.Home_page import HomePage
-from Configuration.readProperties import ReadConfig
+from Utilies.readProperties import ReadConfig
 from Utilies.CustomLogger import LogGen
 
 
@@ -11,6 +12,7 @@ class Test_001_LogIn:
     password = ReadConfig.get_password()
     logger = LogGen.loggen()
 
+    @pytest.mark.regression
     def test_homePageTitle(self, setup):
         self.logger.info("*****Test_001_LogIn*******")
         self.logger.info("****** Home Page Title Checking *******")
@@ -29,11 +31,13 @@ class Test_001_LogIn:
             self.logger.info("******Home Page Title Is Not Matched*******")
             self.driver.close()
             assert False
-    #
+
+    @pytest.mark.regression
+    @pytest.mark.sanity
     def test_login(self, setup):
         self.logger.info("******Login Page Title Checking Start*******")
         self.driver = setup
-        self.driver.implicitly_wait(10)
+        # self.driver.implicitly_wait(10)
         self.driver.get(self.url)
         self.loginPage = LogInPage(self.driver)
         self.loginPage.set_username(self.user_name)
