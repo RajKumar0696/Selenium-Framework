@@ -17,7 +17,7 @@ class Test_005_SearchCustomer:
 
     @pytest.mark.regression
     def test_search_customer_name(self, setup):
-        self.logger.info("*** Test_004_search_customer***")
+        self.logger.info("*** Test_005_search_customer***")
         self.driver = setup
         self.driver.get(self.url)
         self.driver.maximize_window()

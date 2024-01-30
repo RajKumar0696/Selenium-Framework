@@ -18,7 +18,6 @@ class Test_002_LogIn_DDT:
         self.logger.info("****** Verifying Login DDT Test *******")
         self.driver = setup
         self.driver.get(self.url)
-        self.loginPage = LogInPage(self.driver)
         self.lp = LogInPage(self.driver)
         self.rows = ExcelUtils.getRowCount(self.path, 'Sheet4')
         print("Number Of Rows in a Excel:", self.rows)
@@ -44,7 +43,6 @@ class Test_002_LogIn_DDT:
                     lst_status.append("Pass")
                 elif self.exp == "Fail":
                     self.logger.info("**** Failed ****")
-                    self.lp.click_logout()
                     lst_status.append("Fail")
 
             elif act_title != exp_title:

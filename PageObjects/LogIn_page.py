@@ -1,4 +1,6 @@
+import pytest
 from selenium.webdriver.common.by import By
+import unittest
 
 
 class LogInPage:
@@ -14,6 +16,7 @@ class LogInPage:
         self.driver.find_element(By.ID, self.textbox_username_id).clear()
         self.driver.find_element(By.ID, self.textbox_username_id).send_keys(username)
 
+    # @unittest.skip("Just for trail")
     def set_password(self, password):
         self.driver.find_element(By.ID, self.textbox_password_id).clear()
         self.driver.find_element(By.ID, self.textbox_password_id).send_keys(password)

@@ -1,0 +1,271 @@
+06/09/2023 12:44:01 PM: INFO: ******Login Page Title Checking Start*******
+06/09/2023 12:44:13 PM: INFO: ***** Login Page Title Is Matched*****
+06/09/2023 12:47:32 PM: INFO: *** Test_003_add_customer***
+06/09/2023 12:47:45 PM: INFO: *** Login successfully***
+06/09/2023 12:47:45 PM: INFO: *** Starting add customer test***
+06/09/2023 12:47:52 PM: INFO: *** Providing customer details ***
+06/09/2023 12:48:03 PM: INFO: *** Customer added successfully ***
+06/09/2023 12:48:03 PM: INFO: *** Add customer validation start ***
+06/09/2023 12:48:04 PM: INFO: *** Add customer test passed ***
+06/09/2023 12:48:07 PM: INFO: *** Ending Add customer test ***
+06/09/2023 12:48:11 PM: INFO: *** Test_006_add_product***
+06/09/2023 12:48:23 PM: INFO: *** Login successfully***
+06/09/2023 12:48:23 PM: INFO: ***Starting add product test***
+06/09/2023 12:48:31 PM: INFO: ***Product details provided here***
+06/09/2023 12:48:45 PM: INFO: *****Test_001_LogIn*******
+06/09/2023 12:48:45 PM: INFO: * ***** Home Page Title Checking *******
+06/09/2023 12:48:50 PM: INFO: ***** Home Page Title Is Matched *****
+06/09/2023 12:48:57 PM: INFO: ******Login Page Title Checking Start*******
+06/09/2023 12:49:07 PM: INFO: ***** Login Page Title Is Matched*****
+06/09/2023 12:49:10 PM: INFO: ****** Test_002_DDT_Login******
+06/09/2023 12:49:10 PM: INFO: ****** Verifying Login DDT Test *******
+06/09/2023 12:49:25 PM: INFO: *** Passed ****
+06/09/2023 12:49:34 PM: INFO: *** Passed ***
+06/09/2023 12:49:41 PM: INFO: *** Passed ***
+06/09/2023 12:49:45 PM: INFO: *** Test_004_search_customer***
+06/09/2023 12:49:55 PM: INFO: *** Login successfully***
+06/09/2023 12:49:55 PM: INFO: *** Starting Search customers by email ***
+06/09/2023 12:49:59 PM: INFO: *** Search customers by email ***
+06/09/2023 12:50:05 PM: INFO: *** Search customer_004 test is completed ***
+06/09/2023 12:50:09 PM: INFO: *** Test_005_search_customer***
+06/09/2023 12:50:22 PM: INFO: *** Login successfully***
+06/09/2023 12:50:22 PM: INFO: *** Starting Search customers by name ***
+06/09/2023 12:50:28 PM: INFO: *** Search customers by name ***
+06/12/2023 05:01:44 PM: INFO: *** Test_003_add_customer***
+06/12/2023 05:01:44 PM: INFO: *** Test_006_add_product***
+06/12/2023 05:01:44 PM: INFO: *****Test_001_LogIn*******
+06/12/2023 05:01:44 PM: INFO: * ***** Home Page Title Checking *******
+06/12/2023 05:01:44 PM: INFO: ******Login Page Title Checking Start*******
+06/12/2023 05:01:44 PM: INFO: ****** Test_002_DDT_Login******
+06/12/2023 05:01:44 PM: INFO: ****** Verifying Login DDT Test *******
+06/12/2023 05:01:44 PM: INFO: *** Test_004_search_customer***
+06/12/2023 05:01:44 PM: INFO: *** Test_005_search_customer***
+06/12/2023 05:02:48 PM: INFO: *** Test_003_add_customer***
+06/12/2023 05:03:03 PM: INFO: *** Login successfully***
+06/12/2023 05:03:03 PM: INFO: *** Starting add customer test***
+06/12/2023 05:03:13 PM: INFO: *** Providing customer details ***
+06/12/2023 05:03:25 PM: INFO: *** Customer added successfully ***
+06/12/2023 05:03:25 PM: INFO: *** Add customer validation start ***
+06/12/2023 05:03:25 PM: INFO: *** Add customer test passed ***
+06/12/2023 05:03:26 PM: INFO: *** Ending Add customer test ***
+06/12/2023 05:03:30 PM: INFO: *** Test_006_add_product***
+06/12/2023 05:04:02 PM: INFO: *** Login successfully***
+06/12/2023 05:04:02 PM: INFO: ***Starting add product test***
+06/12/2023 05:04:24 PM: INFO: ***Product details provided here***
+06/12/2023 05:04:39 PM: INFO: *****Test_001_LogIn*******
+06/12/2023 05:04:39 PM: INFO: * ***** Home Page Title Checking *******
+06/12/2023 05:04:48 PM: INFO: ***** Home Page Title Is Matched *****
+06/12/2023 05:04:51 PM: INFO: ******Login Page Title Checking Start*******
+06/12/2023 05:05:29 PM: INFO: ***** Login Page Title Is Matched*****
+06/12/2023 05:05:33 PM: INFO: ****** Test_002_DDT_Login******
+06/12/2023 05:05:33 PM: INFO: ****** Verifying Login DDT Test *******
+06/12/2023 05:06:08 PM: INFO: *** Passed ****
+06/12/2023 05:06:22 PM: INFO: *** Passed ***
+06/12/2023 05:06:54 PM: INFO: *** Passed ***
+06/12/2023 05:06:58 PM: INFO: *** Test_004_search_customer***
+06/12/2023 05:07:12 PM: INFO: *** Login successfully***
+06/12/2023 05:07:12 PM: INFO: *** Starting Search customers by email ***
+06/12/2023 05:07:17 PM: INFO: *** Search customers by email ***
+06/12/2023 05:07:23 PM: INFO: *** Search customer_004 test is completed ***
+06/12/2023 05:07:26 PM: INFO: *** Test_005_search_customer***
+06/12/2023 05:07:43 PM: INFO: *** Login successfully***
+06/12/2023 05:07:43 PM: INFO: *** Starting Search customers by name ***
+06/12/2023 05:07:49 PM: INFO: *** Search customers by name ***
+06/12/2023 05:25:38 PM: INFO: *** Test_003_add_customer***
+06/12/2023 05:25:46 PM: INFO: *** Test_006_add_product***
+06/12/2023 05:26:21 PM: INFO: *****Test_001_LogIn*******
+06/12/2023 05:26:21 PM: INFO: * ***** Home Page Title Checking *******
+06/12/2023 05:26:35 PM: INFO: ******Login Page Title Checking Start*******
+06/12/2023 05:26:44 PM: INFO: ****** Test_002_DDT_Login******
+06/12/2023 05:26:44 PM: INFO: ****** Verifying Login DDT Test *******
+06/12/2023 05:26:58 PM: INFO: *** Test_004_search_customer***
+06/12/2023 05:27:15 PM: INFO: *** Test_005_search_customer***
+06/12/2023 05:28:56 PM: INFO: *** Test_006_add_product***
+06/12/2023 05:29:08 PM: INFO: *** Login successfully***
+06/12/2023 05:29:08 PM: INFO: ***Starting add product test***
+06/12/2023 05:29:17 PM: INFO: ***Product details provided here***
+06/12/2023 05:30:26 PM: INFO: *** Test_006_add_product***
+06/12/2023 05:30:44 PM: INFO: *** Login successfully***
+06/12/2023 05:30:44 PM: INFO: ***Starting add product test***
+06/12/2023 05:30:52 PM: INFO: ***Product details provided here***
+06/12/2023 05:38:21 PM: INFO: *** Test_006_add_product***
+06/12/2023 05:38:40 PM: INFO: *** Login successfully***
+06/12/2023 05:38:40 PM: INFO: ***Starting add product test***
+06/12/2023 05:38:51 PM: INFO: ***Product details provided here***
+06/12/2023 05:40:43 PM: INFO: *** Test_006_add_product***
+06/12/2023 05:41:11 PM: INFO: *** Login successfully***
+06/12/2023 05:41:11 PM: INFO: ***Starting add product test***
+06/12/2023 05:41:20 PM: INFO: ***Product details provided here***
+07/31/2023 11:46:14 AM: INFO: ******Login Page Title Checking Start*******
+07/31/2023 11:46:48 AM: INFO: ******Login Page Title Checking Start*******
+08/04/2023 12:35:29 PM: INFO: ****** Test_002_DDT_Login******
+08/04/2023 12:35:29 PM: INFO: ****** Verifying Login DDT Test *******
+08/04/2023 12:35:42 PM: INFO: *** Passed ****
+08/04/2023 12:35:50 PM: INFO: *** Passed ***
+08/04/2023 12:35:57 PM: INFO: *** Passed ***
+08/04/2023 12:40:31 PM: INFO: ******Login Page Title Checking Start*******
+08/04/2023 12:40:42 PM: INFO: ***** Login Page Title Is Matched*****
+08/04/2023 12:59:24 PM: INFO: ******Login Page Title Checking Start*******
+08/04/2023 12:59:35 PM: INFO: ***** Login Page Title Is Matched*****
+08/28/2023 12:35:08 PM: INFO: ****** Test_002_DDT_Login******
+08/28/2023 12:35:08 PM: INFO: ****** Verifying Login DDT Test *******
+08/28/2023 12:35:30 PM: INFO: *** Passed ****
+01/11/2024 11:37:45 AM: INFO: *****Test_001_LogIn*******
+01/11/2024 11:37:45 AM: INFO: * ***** Home Page Title Checking *******
+01/11/2024 11:38:21 AM: INFO: *****Test_001_LogIn*******
+01/11/2024 11:38:21 AM: INFO: * ***** Home Page Title Checking *******
+01/11/2024 11:44:36 AM: INFO: *****Test_001_LogIn*******
+01/11/2024 11:44:36 AM: INFO: * ***** Home Page Title Checking *******
+01/11/2024 11:44:43 AM: INFO: ***** Home Page Title Is Matched *****
+01/11/2024 11:45:44 AM: INFO: *****Test_001_LogIn*******
+01/11/2024 11:45:44 AM: INFO: * ***** Home Page Title Checking *******
+01/11/2024 11:45:48 AM: INFO: ***** Home Page Title Is Matched *****
+01/17/2024 11:10:38 AM: DEBUG: driver not found in PATH, trying Selenium Manager
+01/17/2024 11:10:38 AM: DEBUG: Executing: C:\Users\WELCOME\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome
+01/17/2024 11:10:42 AM: DEBUG: Unable to obtain driver using Selenium Manager: Selenium manager failed for: C:\Users\WELCOME\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome.
+WARN	Error getting version of chromedriver 120. Retrying with chromedriver 119 (attempt 1/5)
+WARN	Error getting version of chromedriver 119. Retrying with chromedriver 118 (attempt 2/5)
+WARN	Error getting version of chromedriver 118. Retrying with chromedriver 117 (attempt 3/5)
+WARN	Error getting version of chromedriver 117. Retrying with chromedriver 116 (attempt 4/5)
+WARN	Error getting version of chromedriver 116. Retrying with chromedriver 115 (attempt 5/5)
+ERROR	The chromedriver version cannot be discovered
+01/17/2024 11:13:00 AM: DEBUG: Started executable: `C:\Users\WELCOME\Downloads\chromedriver-win64\chromedriver-win64/chromedriver.exe` in a child process with pid: 8956
+01/17/2024 11:13:01 AM: DEBUG: POST http://localhost:61505/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+01/17/2024 11:13:01 AM: DEBUG: Starting new HTTP connection (1): localhost:61505
+01/17/2024 11:13:05 AM: DEBUG: http://localhost:61505 "POST /session HTTP/1.1" 200 884
+01/17/2024 11:13:05 AM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"120.0.6099.217","chrome":{"chromedriverVersion":"120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483})","userDataDir":"C:\\Users\\WELCOME\\AppData\\Local\\Temp\\scoped_dir8956_307342302"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:61509"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"7444576fe891f122e65475f18d6d6144"}} | headers=HTTPHeaderDict({'Content-Length': '884', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:05 AM: DEBUG: Finished Request
+01/17/2024 11:13:05 AM: INFO: ******Login Page Title Checking Start*******
+01/17/2024 11:13:05 AM: DEBUG: POST http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/timeouts {"implicit": 10000}
+01/17/2024 11:13:05 AM: DEBUG: http://localhost:61505 "POST /session/7444576fe891f122e65475f18d6d6144/timeouts HTTP/1.1" 200 14
+01/17/2024 11:13:05 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:05 AM: DEBUG: Finished Request
+01/17/2024 11:13:05 AM: DEBUG: POST http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/url {"url": "https://admin-demo.nopcommerce.com/login"}
+01/17/2024 11:13:09 AM: DEBUG: http://localhost:61505 "POST /session/7444576fe891f122e65475f18d6d6144/url HTTP/1.1" 200 14
+01/17/2024 11:13:09 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:09 AM: DEBUG: Finished Request
+01/17/2024 11:13:09 AM: DEBUG: POST http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/element {"using": "css selector", "value": "[id=\"Email\"]"}
+01/17/2024 11:13:09 AM: DEBUG: http://localhost:61505 "POST /session/7444576fe891f122e65475f18d6d6144/element HTTP/1.1" 200 94
+01/17/2024 11:13:09 AM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"211CB3F73B310C4511BB563F80FE4376_element_1"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:09 AM: DEBUG: Finished Request
+01/17/2024 11:13:09 AM: DEBUG: POST http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/element/211CB3F73B310C4511BB563F80FE4376_element_1/clear {"id": "211CB3F73B310C4511BB563F80FE4376_element_1"}
+01/17/2024 11:13:10 AM: DEBUG: http://localhost:61505 "POST /session/7444576fe891f122e65475f18d6d6144/element/211CB3F73B310C4511BB563F80FE4376_element_1/clear HTTP/1.1" 200 14
+01/17/2024 11:13:10 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:10 AM: DEBUG: Finished Request
+01/17/2024 11:13:10 AM: DEBUG: POST http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/element {"using": "css selector", "value": "[id=\"Email\"]"}
+01/17/2024 11:13:10 AM: DEBUG: http://localhost:61505 "POST /session/7444576fe891f122e65475f18d6d6144/element HTTP/1.1" 200 94
+01/17/2024 11:13:10 AM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"211CB3F73B310C4511BB563F80FE4376_element_1"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:10 AM: DEBUG: Finished Request
+01/17/2024 11:13:10 AM: DEBUG: POST http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/element/211CB3F73B310C4511BB563F80FE4376_element_1/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "211CB3F73B310C4511BB563F80FE4376_element_1"}
+01/17/2024 11:13:10 AM: DEBUG: http://localhost:61505 "POST /session/7444576fe891f122e65475f18d6d6144/element/211CB3F73B310C4511BB563F80FE4376_element_1/value HTTP/1.1" 200 14
+01/17/2024 11:13:10 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:10 AM: DEBUG: Finished Request
+01/17/2024 11:13:10 AM: DEBUG: POST http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/element {"using": "css selector", "value": "[id=\"Password\"]"}
+01/17/2024 11:13:10 AM: DEBUG: http://localhost:61505 "POST /session/7444576fe891f122e65475f18d6d6144/element HTTP/1.1" 200 94
+01/17/2024 11:13:10 AM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"211CB3F73B310C4511BB563F80FE4376_element_7"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:10 AM: DEBUG: Finished Request
+01/17/2024 11:13:10 AM: DEBUG: POST http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/element/211CB3F73B310C4511BB563F80FE4376_element_7/clear {"id": "211CB3F73B310C4511BB563F80FE4376_element_7"}
+01/17/2024 11:13:11 AM: DEBUG: http://localhost:61505 "POST /session/7444576fe891f122e65475f18d6d6144/element/211CB3F73B310C4511BB563F80FE4376_element_7/clear HTTP/1.1" 200 14
+01/17/2024 11:13:11 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:11 AM: DEBUG: Finished Request
+01/17/2024 11:13:11 AM: DEBUG: POST http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/element {"using": "css selector", "value": "[id=\"Password\"]"}
+01/17/2024 11:13:11 AM: DEBUG: http://localhost:61505 "POST /session/7444576fe891f122e65475f18d6d6144/element HTTP/1.1" 200 94
+01/17/2024 11:13:11 AM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"211CB3F73B310C4511BB563F80FE4376_element_7"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:11 AM: DEBUG: Finished Request
+01/17/2024 11:13:11 AM: DEBUG: POST http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/element/211CB3F73B310C4511BB563F80FE4376_element_7/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "211CB3F73B310C4511BB563F80FE4376_element_7"}
+01/17/2024 11:13:11 AM: DEBUG: http://localhost:61505 "POST /session/7444576fe891f122e65475f18d6d6144/element/211CB3F73B310C4511BB563F80FE4376_element_7/value HTTP/1.1" 200 14
+01/17/2024 11:13:11 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:11 AM: DEBUG: Finished Request
+01/17/2024 11:13:11 AM: DEBUG: POST http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/element {"using": "xpath", "value": "/html/body/div[6]/div/div/div/div/div[2]/div[1]/div/form/div[3]/button"}
+01/17/2024 11:13:11 AM: DEBUG: http://localhost:61505 "POST /session/7444576fe891f122e65475f18d6d6144/element HTTP/1.1" 200 94
+01/17/2024 11:13:11 AM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"211CB3F73B310C4511BB563F80FE4376_element_9"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:11 AM: DEBUG: Finished Request
+01/17/2024 11:13:11 AM: DEBUG: POST http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/element/211CB3F73B310C4511BB563F80FE4376_element_9/click {"id": "211CB3F73B310C4511BB563F80FE4376_element_9"}
+01/17/2024 11:13:14 AM: DEBUG: http://localhost:61505 "POST /session/7444576fe891f122e65475f18d6d6144/element/211CB3F73B310C4511BB563F80FE4376_element_9/click HTTP/1.1" 200 14
+01/17/2024 11:13:14 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:14 AM: DEBUG: Finished Request
+01/17/2024 11:13:14 AM: DEBUG: GET http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/title {}
+01/17/2024 11:13:16 AM: DEBUG: http://localhost:61505 "GET /session/7444576fe891f122e65475f18d6d6144/title HTTP/1.1" 200 50
+01/17/2024 11:13:16 AM: DEBUG: Remote response: status=200 | data={"value":"Dashboard / nopCommerce administration"} | headers=HTTPHeaderDict({'Content-Length': '50', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:16 AM: DEBUG: Finished Request
+01/17/2024 11:13:16 AM: INFO: ***** Login Page Title Is Matched*****
+01/17/2024 11:13:16 AM: DEBUG: DELETE http://localhost:61505/session/7444576fe891f122e65475f18d6d6144/window {}
+01/17/2024 11:13:17 AM: DEBUG: http://localhost:61505 "DELETE /session/7444576fe891f122e65475f18d6d6144/window HTTP/1.1" 200 12
+01/17/2024 11:13:17 AM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:13:17 AM: DEBUG: Finished Request
+01/17/2024 11:14:55 AM: DEBUG: driver not found in PATH, trying Selenium Manager
+01/17/2024 11:14:55 AM: DEBUG: Executing: C:\Users\WELCOME\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser firefox
+01/17/2024 11:14:57 AM: DEBUG: Using driver at: C:\Users\WELCOME\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+01/17/2024 11:14:57 AM: DEBUG: Started executable: `geckodriver` in a child process with pid: 1712
+01/17/2024 11:14:58 AM: DEBUG: POST http://localhost:61583/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true, "moz:debuggerAddress": true, "pageLoadStrategy": "normal"}}}
+01/17/2024 11:14:58 AM: DEBUG: Starting new HTTP connection (1): localhost:61583
+01/17/2024 11:15:01 AM: DEBUG: http://localhost:61583 "POST /session HTTP/1.1" 500 245
+01/17/2024 11:15:01 AM: DEBUG: Remote response: status=500 | data={"value":{"error":"session not created","message":"Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line","stacktrace":""}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '245', 'date': 'Wed, 17 Jan 2024 05:45:00 GMT'})
+01/17/2024 11:15:01 AM: DEBUG: Finished Request
+01/17/2024 11:15:26 AM: DEBUG: driver not found in PATH, trying Selenium Manager
+01/17/2024 11:15:26 AM: DEBUG: Executing: C:\Users\WELCOME\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser edge
+01/17/2024 11:15:27 AM: DEBUG: Using driver at: C:\Users\WELCOME\.cache\selenium\msedgedriver\win64\120.0.2210.133\msedgedriver.exe
+01/17/2024 11:15:27 AM: DEBUG: Started executable: `msedgedriver` in a child process with pid: 10940
+01/17/2024 11:15:28 AM: DEBUG: POST http://localhost:61609/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "MicrosoftEdge", "pageLoadStrategy": "normal", "ms:edgeOptions": {"extensions": [], "args": []}}}}
+01/17/2024 11:15:28 AM: DEBUG: Starting new HTTP connection (1): localhost:61609
+01/17/2024 11:15:33 AM: DEBUG: http://localhost:61609 "POST /session HTTP/1.1" 200 858
+01/17/2024 11:15:33 AM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"MicrosoftEdge","browserVersion":"120.0.2210.133","fedcm:accounts":true,"ms:edgeOptions":{"debuggerAddress":"localhost:61614"},"msedge":{"msedgedriverVersion":"120.0.2210.133 (5a3825c4628d0bef4e9a1ceca8987a524bbd379a)","userDataDir":"C:\\Users\\WELCOME\\AppData\\Local\\Temp\\scoped_dir10940_1807770041"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"774c13d9d8869e60b247426558ce7347"}} | headers=HTTPHeaderDict({'Content-Length': '858', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:33 AM: DEBUG: Finished Request
+01/17/2024 11:15:33 AM: INFO: ******Login Page Title Checking Start*******
+01/17/2024 11:15:33 AM: DEBUG: POST http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/timeouts {"implicit": 10000}
+01/17/2024 11:15:33 AM: DEBUG: http://localhost:61609 "POST /session/774c13d9d8869e60b247426558ce7347/timeouts HTTP/1.1" 200 14
+01/17/2024 11:15:33 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:33 AM: DEBUG: Finished Request
+01/17/2024 11:15:33 AM: DEBUG: POST http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/url {"url": "https://admin-demo.nopcommerce.com/login"}
+01/17/2024 11:15:39 AM: DEBUG: http://localhost:61609 "POST /session/774c13d9d8869e60b247426558ce7347/url HTTP/1.1" 200 14
+01/17/2024 11:15:39 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:39 AM: DEBUG: Finished Request
+01/17/2024 11:15:39 AM: DEBUG: POST http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/element {"using": "css selector", "value": "[id=\"Email\"]"}
+01/17/2024 11:15:39 AM: DEBUG: http://localhost:61609 "POST /session/774c13d9d8869e60b247426558ce7347/element HTTP/1.1" 200 94
+01/17/2024 11:15:39 AM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"38D046FA75487CD73C5071F545748DA4_element_1"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:39 AM: DEBUG: Finished Request
+01/17/2024 11:15:39 AM: DEBUG: POST http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/element/38D046FA75487CD73C5071F545748DA4_element_1/clear {"id": "38D046FA75487CD73C5071F545748DA4_element_1"}
+01/17/2024 11:15:40 AM: DEBUG: http://localhost:61609 "POST /session/774c13d9d8869e60b247426558ce7347/element/38D046FA75487CD73C5071F545748DA4_element_1/clear HTTP/1.1" 200 14
+01/17/2024 11:15:40 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:40 AM: DEBUG: Finished Request
+01/17/2024 11:15:40 AM: DEBUG: POST http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/element {"using": "css selector", "value": "[id=\"Email\"]"}
+01/17/2024 11:15:40 AM: DEBUG: http://localhost:61609 "POST /session/774c13d9d8869e60b247426558ce7347/element HTTP/1.1" 200 94
+01/17/2024 11:15:40 AM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"38D046FA75487CD73C5071F545748DA4_element_1"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:40 AM: DEBUG: Finished Request
+01/17/2024 11:15:40 AM: DEBUG: POST http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/element/38D046FA75487CD73C5071F545748DA4_element_1/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "38D046FA75487CD73C5071F545748DA4_element_1"}
+01/17/2024 11:15:40 AM: DEBUG: http://localhost:61609 "POST /session/774c13d9d8869e60b247426558ce7347/element/38D046FA75487CD73C5071F545748DA4_element_1/value HTTP/1.1" 200 14
+01/17/2024 11:15:40 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:40 AM: DEBUG: Finished Request
+01/17/2024 11:15:40 AM: DEBUG: POST http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/element {"using": "css selector", "value": "[id=\"Password\"]"}
+01/17/2024 11:15:41 AM: DEBUG: http://localhost:61609 "POST /session/774c13d9d8869e60b247426558ce7347/element HTTP/1.1" 200 94
+01/17/2024 11:15:41 AM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"38D046FA75487CD73C5071F545748DA4_element_7"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:41 AM: DEBUG: Finished Request
+01/17/2024 11:15:41 AM: DEBUG: POST http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/element/38D046FA75487CD73C5071F545748DA4_element_7/clear {"id": "38D046FA75487CD73C5071F545748DA4_element_7"}
+01/17/2024 11:15:41 AM: DEBUG: http://localhost:61609 "POST /session/774c13d9d8869e60b247426558ce7347/element/38D046FA75487CD73C5071F545748DA4_element_7/clear HTTP/1.1" 200 14
+01/17/2024 11:15:41 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:41 AM: DEBUG: Finished Request
+01/17/2024 11:15:41 AM: DEBUG: POST http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/element {"using": "css selector", "value": "[id=\"Password\"]"}
+01/17/2024 11:15:41 AM: DEBUG: http://localhost:61609 "POST /session/774c13d9d8869e60b247426558ce7347/element HTTP/1.1" 200 94
+01/17/2024 11:15:41 AM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"38D046FA75487CD73C5071F545748DA4_element_7"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:41 AM: DEBUG: Finished Request
+01/17/2024 11:15:41 AM: DEBUG: POST http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/element/38D046FA75487CD73C5071F545748DA4_element_7/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "38D046FA75487CD73C5071F545748DA4_element_7"}
+01/17/2024 11:15:41 AM: DEBUG: http://localhost:61609 "POST /session/774c13d9d8869e60b247426558ce7347/element/38D046FA75487CD73C5071F545748DA4_element_7/value HTTP/1.1" 200 14
+01/17/2024 11:15:41 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:41 AM: DEBUG: Finished Request
+01/17/2024 11:15:41 AM: DEBUG: POST http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/element {"using": "xpath", "value": "/html/body/div[6]/div/div/div/div/div[2]/div[1]/div/form/div[3]/button"}
+01/17/2024 11:15:41 AM: DEBUG: http://localhost:61609 "POST /session/774c13d9d8869e60b247426558ce7347/element HTTP/1.1" 200 95
+01/17/2024 11:15:41 AM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"38D046FA75487CD73C5071F545748DA4_element_10"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:41 AM: DEBUG: Finished Request
+01/17/2024 11:15:41 AM: DEBUG: POST http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/element/38D046FA75487CD73C5071F545748DA4_element_10/click {"id": "38D046FA75487CD73C5071F545748DA4_element_10"}
+01/17/2024 11:15:49 AM: DEBUG: http://localhost:61609 "POST /session/774c13d9d8869e60b247426558ce7347/element/38D046FA75487CD73C5071F545748DA4_element_10/click HTTP/1.1" 200 14
+01/17/2024 11:15:49 AM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:49 AM: DEBUG: Finished Request
+01/17/2024 11:15:49 AM: DEBUG: GET http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/title {}
+01/17/2024 11:15:52 AM: DEBUG: http://localhost:61609 "GET /session/774c13d9d8869e60b247426558ce7347/title HTTP/1.1" 200 50
+01/17/2024 11:15:52 AM: DEBUG: Remote response: status=200 | data={"value":"Dashboard / nopCommerce administration"} | headers=HTTPHeaderDict({'Content-Length': '50', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:52 AM: DEBUG: Finished Request
+01/17/2024 11:15:52 AM: INFO: ***** Login Page Title Is Matched*****
+01/17/2024 11:15:52 AM: DEBUG: DELETE http://localhost:61609/session/774c13d9d8869e60b247426558ce7347/window {}
+01/17/2024 11:15:52 AM: DEBUG: http://localhost:61609 "DELETE /session/774c13d9d8869e60b247426558ce7347/window HTTP/1.1" 200 12
+01/17/2024 11:15:52 AM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/17/2024 11:15:52 AM: DEBUG: Finished Request

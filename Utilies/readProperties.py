@@ -1,4 +1,5 @@
 import configparser
+
 config = configparser.RawConfigParser()
 config.read(".\\Configuration\\config.ini")
 
@@ -6,7 +7,7 @@ config.read(".\\Configuration\\config.ini")
 class ReadConfig:
     @staticmethod
     def get_application_url():
-        url=config.get('common info','url')
+        url = config.get('common info', 'url')
         return url
 
     @staticmethod
@@ -15,6 +16,6 @@ class ReadConfig:
         return username
 
     @staticmethod
-    def get_password ():
+    def get_password():
         password = config.get('common info', 'password')
         return password
