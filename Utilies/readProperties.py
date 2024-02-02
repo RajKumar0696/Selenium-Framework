@@ -19,3 +19,8 @@ class ReadConfig:
     def get_password():
         password = config.get('common info', 'password')
         return password
+
+    @staticmethod
+    def set_newpassword():
+        new_password = config.get('common info', 'newpassword')
+        return new_password
