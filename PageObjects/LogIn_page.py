@@ -6,8 +6,8 @@ import unittest
 class LogInPage:
     textbox_username_id = "Email"
     textbox_password_id = "Password"
-    button_login_xpath = "/html/body/div[6]/div/div/div/div/div[2]/div[1]/div/form/div[3]/button"
-    button_logout_xpath = "//*[@id='navbarText']/ul/li[3]/a"
+    button_login_xpath = "//div[@class='buttons']//button"
+    button_logout_xpath = "//li[@class='nav-item']//a[normalize-space()='Logout']"
 
     def __init__(self, driver):
         self.driver = driver

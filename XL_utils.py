@@ -1,26 +1,28 @@
 import openpyxl
 from openpyxl.styles import PatternFill
+path = "Test_data/login_test_data.xlsx"
 
 
-def getRowCount(file, sheetName):
+def get_row_count(file, sheetName):
     workbook = openpyxl.load_workbook(file)
     sheet = workbook[sheetName]
     return sheet.max_row
 
 
-def getColumnCount(file, sheetName):
+def get_column_count(file, sheetName):
     workbook = openpyxl.load_workbook(file)
     sheet = workbook[sheetName]
     return sheet.max_column
 
 
-def readData(file, sheetName, rowNum, columnNum):
+def read_data(file, sheetName, rowNum,columnNum):
     workbook = openpyxl.load_workbook(file)
     sheet = workbook[sheetName]
-    return sheet.cell(rowNum, columnNum).value
+    value = sheet.cell(rowNum, columnNum).value
+    return value
 
 
-def writeData(file, sheetName, rowNum, columnNum, data):
+def write_data(file, sheetName, rowNum, columnNum,data):
     workbook = openpyxl.load_workbook(file)
     sheet = workbook[sheetName]
     sheet.cell(rowNum, columnNum).value = data
