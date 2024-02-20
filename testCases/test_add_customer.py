@@ -53,7 +53,6 @@ class Test_003_AddCustomer:
         self.logger.info("*** Customer added successfully ***")
         self.logger.info("*** Add customer validation start ***")
         self.msg = self.driver.find_element(By.TAG_NAME, "body").text
-        print(self.msg)
         if 'The new customer has been added successfully.' in self.msg:
             assert True == True
             self.logger.info("*** Add customer test passed ***")

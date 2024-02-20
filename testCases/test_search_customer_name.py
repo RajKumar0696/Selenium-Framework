@@ -39,7 +39,7 @@ class Test_005_SearchCustomer:
         search_cust.search_by_last_name("Kohli")
         search_cust.click_search()
         time.sleep(5)
-        status = search_cust.search_customer_name("Virat Kohli")
+        status = search_cust.search_customer_name()
         assert True == status
         self.logger.info("*** Search customer_004 test is completed ***")
         self.driver.close()
