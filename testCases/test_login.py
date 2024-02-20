@@ -29,6 +29,7 @@ class Test_002_LogIn:
             self.logger.info("***** Login Page Title Is Matched*****")
             assert True
             self.driver.close()
+
         else:
             self.driver.save_screenshot(".\\Screenshots\\" + " test_login.png")
             self.logger.info("***** Login Page Title Is Not Matched*****")

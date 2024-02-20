@@ -4,8 +4,8 @@ import time
 
 class AddNewCustomer:
     # Elements
-    lnk_customers_menu_xpath = "(//a[@class='nav-link'])[21]"
-    lnk_customers_menu_item_xpath = "(//p[contains(text(),'Customers')])[2]"
+    lnk_customers_menu_xpath = "//a[@href='#']//p[contains(text(),'Customers')]"
+    lnk_customers_menu_item_xpath = "//a[@href='/Admin/Customer/List']//p[contains(text(),'Customers')]"
     btn_add_new_xpath = "(//a[normalize-space()='Add new'])[1]"
     txt_email_id = "Email"
     txt_password_id = "Password"

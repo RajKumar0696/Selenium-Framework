@@ -1,10 +1,5 @@
-import random
-import string
 import time
-
 import pytest
-from selenium.webdriver.common.by import By
-
 from PageObjects.LogIn_page import LogInPage
 from Utilies.readProperties import ReadConfig
 from Utilies.CustomLogger import LogGen
