@@ -3,28 +3,40 @@
 
 
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 import pytest
 
 
 @pytest.fixture()
 def setup(browser):
     if browser == "chrome":
-        ser_obj = Service(r"C:\Users\WELCOME\Downloads\chromedriver-win64\chromedriver-win64/chromedriver.exe")
-        driver = webdriver.Chrome(service=ser_obj)
+        from selenium.webdriver.chrome.service import Service as ChromeService
+        from webdriver_manager.chrome import ChromeDriverManager
+        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
         print("This is chrome browser")
 
     elif browser == "firefox":
+        # from selenium.webdriver.firefox.service import Service as FirefoxService
+        # from webdriver_manager.firefox import GeckoDriverManager
+        #
+        # driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
         driver = webdriver.Firefox()
         print("This is Firefox browser")
 
     elif browser == "edge":
+        # from selenium.webdriver.edge.service import Service as EdgeService
+        # from webdriver_manager.microsoft import EdgeChromiumDriverManager
+        #
+        # driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
         driver = webdriver.Edge()
         print("This is Edge browser")
 
     else:
-        driver = webdriver.Ie()
-        print("This is Internet Explorer browser")
+        from selenium.webdriver.ie.service import Service as IEService
+        from webdriver_manager.microsoft import IEDriverManager
+
+        driver = webdriver.Ie(service=IEService(IEDriverManager().install()))
+        # driver = webdriver.Ie()
+        # print("This is Internet Explorer browser")
     return driver
 
 

@@ -2706,3 +2706,355 @@ ERROR	The chromedriver version cannot be discovered
 02/08/2024 05:03:01 PM: DEBUG: http://localhost:56289 "POST /session/0d682c052e0ae28804bbd1500dbd5ff7/element/3CC4095D8DCC5E65FFCA258C9391C5D7_element_131/click HTTP/1.1" 200 14
 02/08/2024 05:03:01 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
 02/08/2024 05:03:01 PM: DEBUG: Finished Request
+03/07/2024 03:48:46 PM: INFO: ====== WebDriver manager ======
+03/07/2024 03:48:51 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/07/2024 03:48:51 PM: DEBUG: Starting new HTTPS connection (1): googlechromelabs.github.io:443
+03/07/2024 03:48:51 PM: DEBUG: https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 4390
+03/07/2024 03:48:51 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/07/2024 03:48:51 PM: DEBUG: Starting new HTTPS connection (1): googlechromelabs.github.io:443
+03/07/2024 03:48:51 PM: DEBUG: https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 4390
+03/07/2024 03:48:51 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/07/2024 03:48:51 PM: DEBUG: Starting new HTTPS connection (1): googlechromelabs.github.io:443
+03/07/2024 03:48:51 PM: DEBUG: https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 4390
+03/07/2024 03:48:51 PM: DEBUG: Starting new HTTPS connection (1): googlechromelabs.github.io:443
+03/07/2024 03:48:51 PM: DEBUG: https://googlechromelabs.github.io:443 "GET /chrome-for-testing/known-good-versions-with-downloads.json HTTP/1.1" 200 30775
+03/07/2024 03:48:51 PM: INFO: WebDriver version 122.0.6261.94 selected
+03/07/2024 03:48:51 PM: INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/122.0.6261.94/win32/chromedriver-win32.zip
+03/07/2024 03:48:51 PM: INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/122.0.6261.94/win32/chromedriver-win32.zip
+03/07/2024 03:48:51 PM: DEBUG: Starting new HTTPS connection (1): storage.googleapis.com:443
+03/07/2024 03:48:52 PM: DEBUG: https://storage.googleapis.com:443 "GET /chrome-for-testing-public/122.0.6261.94/win32/chromedriver-win32.zip HTTP/1.1" 200 8001230
+03/07/2024 03:48:52 PM: INFO: Driver downloading response is 200
+03/07/2024 03:48:53 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/07/2024 03:48:53 PM: DEBUG: Starting new HTTPS connection (1): googlechromelabs.github.io:443
+03/07/2024 03:48:53 PM: DEBUG: https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 4390
+03/07/2024 03:48:53 PM: INFO: Driver has been saved in cache [C:\Users\WELCOME\.wdm\drivers\chromedriver\win64\122.0.6261.94]
+03/07/2024 03:48:55 PM: DEBUG: Started executable: `C:\Users\WELCOME\.wdm\drivers\chromedriver\win64\122.0.6261.94\chromedriver-win32/chromedriver.exe` in a child process with pid: 7976
+03/07/2024 03:48:55 PM: DEBUG: POST http://localhost:52056/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+03/07/2024 03:48:55 PM: DEBUG: Starting new HTTP connection (1): localhost:52056
+03/07/2024 03:48:58 PM: DEBUG: http://localhost:52056 "POST /session HTTP/1.1" 200 883
+03/07/2024 03:48:58 PM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"122.0.6261.111","chrome":{"chromedriverVersion":"122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960})","userDataDir":"C:\\Users\\WELCOME\\AppData\\Local\\Temp\\scoped_dir7976_1819391281"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:52059"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"3047228440dbeafa81eaa3c6b517a12e"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:48:58 PM: DEBUG: Finished Request
+03/07/2024 03:48:58 PM: INFO: ******Login Page Title Checking Start*******
+03/07/2024 03:48:58 PM: DEBUG: POST http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/timeouts {"implicit": 10000}
+03/07/2024 03:48:58 PM: DEBUG: http://localhost:52056 "POST /session/3047228440dbeafa81eaa3c6b517a12e/timeouts HTTP/1.1" 200 14
+03/07/2024 03:48:58 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:48:58 PM: DEBUG: Finished Request
+03/07/2024 03:48:58 PM: DEBUG: POST http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/url {"url": "https://admin-demo.nopcommerce.com/login"}
+03/07/2024 03:49:03 PM: DEBUG: http://localhost:52056 "POST /session/3047228440dbeafa81eaa3c6b517a12e/url HTTP/1.1" 200 14
+03/07/2024 03:49:03 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:49:03 PM: DEBUG: Finished Request
+03/07/2024 03:49:03 PM: DEBUG: POST http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/element {"using": "css selector", "value": "[id=\"Email\"]"}
+03/07/2024 03:49:03 PM: DEBUG: http://localhost:52056 "POST /session/3047228440dbeafa81eaa3c6b517a12e/element HTTP/1.1" 200 125
+03/07/2024 03:49:03 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.2"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:49:03 PM: DEBUG: Finished Request
+03/07/2024 03:49:03 PM: DEBUG: POST http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/element/f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.2/clear {"id": "f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.2"}
+03/07/2024 03:49:04 PM: DEBUG: http://localhost:52056 "POST /session/3047228440dbeafa81eaa3c6b517a12e/element/f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.2/clear HTTP/1.1" 200 14
+03/07/2024 03:49:04 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:49:04 PM: DEBUG: Finished Request
+03/07/2024 03:49:04 PM: DEBUG: POST http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/element {"using": "css selector", "value": "[id=\"Email\"]"}
+03/07/2024 03:49:04 PM: DEBUG: http://localhost:52056 "POST /session/3047228440dbeafa81eaa3c6b517a12e/element HTTP/1.1" 200 125
+03/07/2024 03:49:04 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.2"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:49:04 PM: DEBUG: Finished Request
+03/07/2024 03:49:04 PM: DEBUG: POST http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/element/f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.2/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.2"}
+03/07/2024 03:49:04 PM: DEBUG: http://localhost:52056 "POST /session/3047228440dbeafa81eaa3c6b517a12e/element/f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.2/value HTTP/1.1" 200 14
+03/07/2024 03:49:04 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:49:04 PM: DEBUG: Finished Request
+03/07/2024 03:49:04 PM: DEBUG: POST http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/element {"using": "css selector", "value": "[id=\"Password\"]"}
+03/07/2024 03:49:04 PM: DEBUG: http://localhost:52056 "POST /session/3047228440dbeafa81eaa3c6b517a12e/element HTTP/1.1" 200 125
+03/07/2024 03:49:04 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.4"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:49:04 PM: DEBUG: Finished Request
+03/07/2024 03:49:04 PM: DEBUG: POST http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/element/f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.4/clear {"id": "f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.4"}
+03/07/2024 03:49:04 PM: DEBUG: http://localhost:52056 "POST /session/3047228440dbeafa81eaa3c6b517a12e/element/f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.4/clear HTTP/1.1" 200 14
+03/07/2024 03:49:04 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:49:04 PM: DEBUG: Finished Request
+03/07/2024 03:49:04 PM: DEBUG: POST http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/element {"using": "css selector", "value": "[id=\"Password\"]"}
+03/07/2024 03:49:04 PM: DEBUG: http://localhost:52056 "POST /session/3047228440dbeafa81eaa3c6b517a12e/element HTTP/1.1" 200 125
+03/07/2024 03:49:04 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.4"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:49:04 PM: DEBUG: Finished Request
+03/07/2024 03:49:04 PM: DEBUG: POST http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/element/f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.4/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.4"}
+03/07/2024 03:49:04 PM: DEBUG: http://localhost:52056 "POST /session/3047228440dbeafa81eaa3c6b517a12e/element/f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.4/value HTTP/1.1" 200 14
+03/07/2024 03:49:04 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:49:04 PM: DEBUG: Finished Request
+03/07/2024 03:49:04 PM: DEBUG: POST http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/element {"using": "xpath", "value": "//div[@class='buttons']//button"}
+03/07/2024 03:49:04 PM: DEBUG: http://localhost:52056 "POST /session/3047228440dbeafa81eaa3c6b517a12e/element HTTP/1.1" 200 125
+03/07/2024 03:49:04 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.7"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:49:04 PM: DEBUG: Finished Request
+03/07/2024 03:49:04 PM: DEBUG: POST http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/element/f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.7/click {"id": "f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.7"}
+03/07/2024 03:49:08 PM: DEBUG: http://localhost:52056 "POST /session/3047228440dbeafa81eaa3c6b517a12e/element/f.6C78E9E51F38E8A6CD4B18C496BA701F.d.DE5D9FBDCCD26E262B4E6252D2E90C1E.e.7/click HTTP/1.1" 200 14
+03/07/2024 03:49:08 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:49:08 PM: DEBUG: Finished Request
+03/07/2024 03:49:08 PM: DEBUG: GET http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/title {}
+03/07/2024 03:49:10 PM: DEBUG: http://localhost:52056 "GET /session/3047228440dbeafa81eaa3c6b517a12e/title HTTP/1.1" 200 50
+03/07/2024 03:49:10 PM: DEBUG: Remote response: status=200 | data={"value":"Dashboard / nopCommerce administration"} | headers=HTTPHeaderDict({'Content-Length': '50', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:49:10 PM: DEBUG: Finished Request
+03/07/2024 03:49:10 PM: INFO: ***** Login Page Title Is Matched*****
+03/07/2024 03:49:10 PM: DEBUG: DELETE http://localhost:52056/session/3047228440dbeafa81eaa3c6b517a12e/window {}
+03/07/2024 03:49:14 PM: DEBUG: http://localhost:52056 "DELETE /session/3047228440dbeafa81eaa3c6b517a12e/window HTTP/1.1" 200 12
+03/07/2024 03:49:14 PM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 03:49:14 PM: DEBUG: Finished Request
+03/07/2024 03:59:27 PM: INFO: ====== WebDriver manager ======
+03/07/2024 03:59:31 PM: INFO: Get LATEST geckodriver version for None firefox
+03/07/2024 03:59:31 PM: DEBUG: Starting new HTTPS connection (1): api.github.com:443
+03/07/2024 03:59:31 PM: DEBUG: https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 None
+03/07/2024 03:59:31 PM: INFO: Getting latest mozilla release info for v0.34.0
+03/07/2024 03:59:31 PM: DEBUG: Starting new HTTPS connection (1): api.github.com:443
+03/07/2024 03:59:32 PM: DEBUG: https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/tags/v0.34.0 HTTP/1.1" 200 None
+03/07/2024 03:59:32 PM: INFO: About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-win64.zip
+03/07/2024 03:59:32 PM: DEBUG: Starting new HTTPS connection (1): github.com:443
+03/07/2024 03:59:32 PM: DEBUG: https://github.com:443 "GET /mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-win64.zip HTTP/1.1" 302 0
+03/07/2024 03:59:32 PM: DEBUG: Starting new HTTPS connection (1): objects.githubusercontent.com:443
+03/07/2024 03:59:33 PM: DEBUG: https://objects.githubusercontent.com:443 "GET /github-production-release-asset-2e65be/25354393/e3588aca-c70a-4a56-96a3-a43f357ed922?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240307%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240307T102837Z&X-Amz-Expires=300&X-Amz-Signature=b8895b54ba619015b168a39e2fb8c589e672d60f006f2bbeab7f0cf612e0245a&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=25354393&response-content-disposition=attachment%3B%20filename%3Dgeckodriver-v0.34.0-win64.zip&response-content-type=application%2Foctet-stream HTTP/1.1" 200 1837855
+03/07/2024 03:59:33 PM: INFO: Driver downloading response is 200
+03/07/2024 03:59:35 PM: INFO: Get LATEST geckodriver version for None firefox
+03/07/2024 03:59:35 PM: DEBUG: Starting new HTTPS connection (1): api.github.com:443
+03/07/2024 03:59:35 PM: DEBUG: https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 2918
+03/07/2024 03:59:36 PM: INFO: Get LATEST geckodriver version for None firefox
+03/07/2024 03:59:36 PM: DEBUG: Starting new HTTPS connection (1): api.github.com:443
+03/07/2024 03:59:36 PM: DEBUG: https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 2918
+03/07/2024 03:59:38 PM: INFO: Driver has been saved in cache [C:\Users\WELCOME\.wdm\drivers\geckodriver\win64\v0.34.0]
+03/07/2024 03:59:38 PM: DEBUG: Started executable: `C:\Users\WELCOME\.wdm\drivers\geckodriver\win64\v0.34.0\geckodriver.exe` in a child process with pid: 504
+03/07/2024 03:59:39 PM: DEBUG: POST http://localhost:52114/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true, "moz:debuggerAddress": true, "pageLoadStrategy": "normal"}}}
+03/07/2024 03:59:39 PM: DEBUG: Starting new HTTP connection (1): localhost:52114
+03/07/2024 03:59:41 PM: DEBUG: http://localhost:52114 "POST /session HTTP/1.1" 500 245
+03/07/2024 03:59:41 PM: DEBUG: Remote response: status=500 | data={"value":{"error":"session not created","message":"Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line","stacktrace":""}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '245', 'date': 'Thu, 07 Mar 2024 10:29:41 GMT'})
+03/07/2024 03:59:41 PM: DEBUG: Finished Request
+03/07/2024 04:00:20 PM: INFO: ====== WebDriver manager ======
+03/07/2024 04:00:24 PM: INFO: Get LATEST edgedriver version for Edge 122.0.2365
+03/07/2024 04:00:24 PM: DEBUG: Starting new HTTPS connection (1): msedgedriver.azureedge.net:443
+03/07/2024 04:00:24 PM: DEBUG: https://msedgedriver.azureedge.net:443 "GET /LATEST_RELEASE_122_WINDOWS HTTP/1.1" 200 32
+03/07/2024 04:00:24 PM: DEBUG: Encoding detection: utf_16 is most likely the one as we detected a BOM or SIG within the beginning of the sequence.
+03/07/2024 04:00:24 PM: INFO: Get LATEST edgedriver version for Edge 122.0.2365
+03/07/2024 04:00:24 PM: DEBUG: Starting new HTTPS connection (1): msedgedriver.azureedge.net:443
+03/07/2024 04:00:24 PM: DEBUG: https://msedgedriver.azureedge.net:443 "GET /LATEST_RELEASE_122_WINDOWS HTTP/1.1" 200 32
+03/07/2024 04:00:24 PM: DEBUG: Encoding detection: utf_16 is most likely the one as we detected a BOM or SIG within the beginning of the sequence.
+03/07/2024 04:00:24 PM: INFO: There is no [win64] edgedriver "122.0.2365.66" for browser edge "122.0.2365" in cache
+03/07/2024 04:00:24 PM: INFO: Get LATEST edgedriver version for Edge 122.0.2365
+03/07/2024 04:00:24 PM: DEBUG: Starting new HTTPS connection (1): msedgedriver.azureedge.net:443
+03/07/2024 04:00:24 PM: DEBUG: https://msedgedriver.azureedge.net:443 "GET /LATEST_RELEASE_122_WINDOWS HTTP/1.1" 200 32
+03/07/2024 04:00:24 PM: DEBUG: Encoding detection: utf_16 is most likely the one as we detected a BOM or SIG within the beginning of the sequence.
+03/07/2024 04:00:24 PM: INFO: About to download new driver from https://msedgedriver.azureedge.net/122.0.2365.66/edgedriver_win64.zip
+03/07/2024 04:00:24 PM: DEBUG: Starting new HTTPS connection (1): msedgedriver.azureedge.net:443
+03/07/2024 04:00:24 PM: DEBUG: https://msedgedriver.azureedge.net:443 "GET /122.0.2365.66/edgedriver_win64.zip HTTP/1.1" 200 9392637
+03/07/2024 04:00:24 PM: INFO: Driver downloading response is 200
+03/07/2024 04:00:26 PM: INFO: Get LATEST edgedriver version for Edge 122.0.2365
+03/07/2024 04:00:26 PM: DEBUG: Starting new HTTPS connection (1): msedgedriver.azureedge.net:443
+03/07/2024 04:00:26 PM: DEBUG: https://msedgedriver.azureedge.net:443 "GET /LATEST_RELEASE_122_WINDOWS HTTP/1.1" 200 32
+03/07/2024 04:00:26 PM: DEBUG: Encoding detection: utf_16 is most likely the one as we detected a BOM or SIG within the beginning of the sequence.
+03/07/2024 04:00:26 PM: INFO: Driver has been saved in cache [C:\Users\WELCOME\.wdm\drivers\edgedriver\win64\122.0.2365.66]
+03/07/2024 04:00:27 PM: DEBUG: Started executable: `C:\Users\WELCOME\.wdm\drivers\edgedriver\win64\122.0.2365.66\msedgedriver.exe` in a child process with pid: 1244
+03/07/2024 04:00:27 PM: DEBUG: POST http://localhost:52130/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "MicrosoftEdge", "pageLoadStrategy": "normal", "ms:edgeOptions": {"extensions": [], "args": []}}}}
+03/07/2024 04:00:27 PM: DEBUG: Starting new HTTP connection (1): localhost:52130
+03/07/2024 04:00:32 PM: DEBUG: http://localhost:52130 "POST /session HTTP/1.1" 200 854
+03/07/2024 04:00:32 PM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"MicrosoftEdge","browserVersion":"122.0.2365.66","fedcm:accounts":true,"ms:edgeOptions":{"debuggerAddress":"localhost:52133"},"msedge":{"msedgedriverVersion":"122.0.2365.66 (ab363614b8f04700fdbbc3d9d7f9deca8102a1c4)","userDataDir":"C:\\Users\\WELCOME\\AppData\\Local\\Temp\\scoped_dir1244_997085276"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"49fa0a799a48dd61a657c0f76fff05fc"}} | headers=HTTPHeaderDict({'Content-Length': '854', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:32 PM: DEBUG: Finished Request
+03/07/2024 04:00:32 PM: INFO: ******Login Page Title Checking Start*******
+03/07/2024 04:00:32 PM: DEBUG: POST http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/timeouts {"implicit": 10000}
+03/07/2024 04:00:32 PM: DEBUG: http://localhost:52130 "POST /session/49fa0a799a48dd61a657c0f76fff05fc/timeouts HTTP/1.1" 200 14
+03/07/2024 04:00:32 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:32 PM: DEBUG: Finished Request
+03/07/2024 04:00:32 PM: DEBUG: POST http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/url {"url": "https://admin-demo.nopcommerce.com/login"}
+03/07/2024 04:00:38 PM: DEBUG: http://localhost:52130 "POST /session/49fa0a799a48dd61a657c0f76fff05fc/url HTTP/1.1" 200 14
+03/07/2024 04:00:38 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:38 PM: DEBUG: Finished Request
+03/07/2024 04:00:38 PM: DEBUG: POST http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/element {"using": "css selector", "value": "[id=\"Email\"]"}
+03/07/2024 04:00:38 PM: DEBUG: http://localhost:52130 "POST /session/49fa0a799a48dd61a657c0f76fff05fc/element HTTP/1.1" 200 125
+03/07/2024 04:00:38 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.2"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:38 PM: DEBUG: Finished Request
+03/07/2024 04:00:38 PM: DEBUG: POST http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/element/f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.2/clear {"id": "f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.2"}
+03/07/2024 04:00:38 PM: DEBUG: http://localhost:52130 "POST /session/49fa0a799a48dd61a657c0f76fff05fc/element/f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.2/clear HTTP/1.1" 200 14
+03/07/2024 04:00:38 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:38 PM: DEBUG: Finished Request
+03/07/2024 04:00:38 PM: DEBUG: POST http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/element {"using": "css selector", "value": "[id=\"Email\"]"}
+03/07/2024 04:00:38 PM: DEBUG: http://localhost:52130 "POST /session/49fa0a799a48dd61a657c0f76fff05fc/element HTTP/1.1" 200 125
+03/07/2024 04:00:38 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.2"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:38 PM: DEBUG: Finished Request
+03/07/2024 04:00:38 PM: DEBUG: POST http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/element/f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.2/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.2"}
+03/07/2024 04:00:39 PM: DEBUG: http://localhost:52130 "POST /session/49fa0a799a48dd61a657c0f76fff05fc/element/f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.2/value HTTP/1.1" 200 14
+03/07/2024 04:00:39 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:39 PM: DEBUG: Finished Request
+03/07/2024 04:00:39 PM: DEBUG: POST http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/element {"using": "css selector", "value": "[id=\"Password\"]"}
+03/07/2024 04:00:39 PM: DEBUG: http://localhost:52130 "POST /session/49fa0a799a48dd61a657c0f76fff05fc/element HTTP/1.1" 200 125
+03/07/2024 04:00:39 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.3"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:39 PM: DEBUG: Finished Request
+03/07/2024 04:00:39 PM: DEBUG: POST http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/element/f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.3/clear {"id": "f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.3"}
+03/07/2024 04:00:39 PM: DEBUG: http://localhost:52130 "POST /session/49fa0a799a48dd61a657c0f76fff05fc/element/f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.3/clear HTTP/1.1" 200 14
+03/07/2024 04:00:39 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:39 PM: DEBUG: Finished Request
+03/07/2024 04:00:39 PM: DEBUG: POST http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/element {"using": "css selector", "value": "[id=\"Password\"]"}
+03/07/2024 04:00:39 PM: DEBUG: http://localhost:52130 "POST /session/49fa0a799a48dd61a657c0f76fff05fc/element HTTP/1.1" 200 125
+03/07/2024 04:00:39 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.3"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:39 PM: DEBUG: Finished Request
+03/07/2024 04:00:39 PM: DEBUG: POST http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/element/f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.3/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.3"}
+03/07/2024 04:00:39 PM: DEBUG: http://localhost:52130 "POST /session/49fa0a799a48dd61a657c0f76fff05fc/element/f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.3/value HTTP/1.1" 200 14
+03/07/2024 04:00:39 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:39 PM: DEBUG: Finished Request
+03/07/2024 04:00:39 PM: DEBUG: POST http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/element {"using": "xpath", "value": "//div[@class='buttons']//button"}
+03/07/2024 04:00:39 PM: DEBUG: http://localhost:52130 "POST /session/49fa0a799a48dd61a657c0f76fff05fc/element HTTP/1.1" 200 125
+03/07/2024 04:00:39 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.5"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:39 PM: DEBUG: Finished Request
+03/07/2024 04:00:39 PM: DEBUG: POST http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/element/f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.5/click {"id": "f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.5"}
+03/07/2024 04:00:44 PM: DEBUG: http://localhost:52130 "POST /session/49fa0a799a48dd61a657c0f76fff05fc/element/f.C87295CA9EAEE1CBCD96B982D5D3251D.d.3BE99BCD9683D820CE25A4817FB9960D.e.5/click HTTP/1.1" 200 14
+03/07/2024 04:00:44 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:44 PM: DEBUG: Finished Request
+03/07/2024 04:00:44 PM: DEBUG: GET http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/title {}
+03/07/2024 04:00:46 PM: DEBUG: http://localhost:52130 "GET /session/49fa0a799a48dd61a657c0f76fff05fc/title HTTP/1.1" 200 50
+03/07/2024 04:00:46 PM: DEBUG: Remote response: status=200 | data={"value":"Dashboard / nopCommerce administration"} | headers=HTTPHeaderDict({'Content-Length': '50', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:46 PM: DEBUG: Finished Request
+03/07/2024 04:00:46 PM: INFO: ***** Login Page Title Is Matched*****
+03/07/2024 04:00:46 PM: DEBUG: DELETE http://localhost:52130/session/49fa0a799a48dd61a657c0f76fff05fc/window {}
+03/07/2024 04:00:50 PM: DEBUG: http://localhost:52130 "DELETE /session/49fa0a799a48dd61a657c0f76fff05fc/window HTTP/1.1" 200 12
+03/07/2024 04:00:50 PM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:00:50 PM: DEBUG: Finished Request
+03/07/2024 04:01:45 PM: INFO: ====== WebDriver manager ======
+03/07/2024 04:01:45 PM: INFO: Get LATEST driver version for Internet Explorer
+03/07/2024 04:01:45 PM: DEBUG: Starting new HTTPS connection (1): api.github.com:443
+03/07/2024 04:01:46 PM: DEBUG: https://api.github.com:443 "GET /repos/seleniumhq/selenium/releases HTTP/1.1" 200 None
+03/07/2024 04:01:47 PM: INFO: Getting latest ie release info for 4.14.0
+03/07/2024 04:01:47 PM: DEBUG: Starting new HTTPS connection (1): api.github.com:443
+03/07/2024 04:01:47 PM: DEBUG: https://api.github.com:443 "GET /repos/seleniumhq/selenium/releases/tags/selenium-4.14.0 HTTP/1.1" 200 None
+03/07/2024 04:01:47 PM: INFO: About to download new driver from https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.14.0/IEDriverServer_x64_4.14.0.zip
+03/07/2024 04:01:47 PM: DEBUG: Starting new HTTPS connection (1): github.com:443
+03/07/2024 04:01:48 PM: DEBUG: https://github.com:443 "GET /SeleniumHQ/selenium/releases/download/selenium-4.14.0/IEDriverServer_x64_4.14.0.zip HTTP/1.1" 302 0
+03/07/2024 04:01:48 PM: DEBUG: Starting new HTTPS connection (1): objects.githubusercontent.com:443
+03/07/2024 04:01:49 PM: DEBUG: https://objects.githubusercontent.com:443 "GET /github-production-release-asset-2e65be/7613257/b4ce7f8b-c138-4ea7-8ba7-dd335a4a125e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240307%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240307T103147Z&X-Amz-Expires=300&X-Amz-Signature=0fe352179f087891f5b7fd7ed49372eaf23497ead8d8e78f3293b3dc53964deb&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=7613257&response-content-disposition=attachment%3B%20filename%3DIEDriverServer_x64_4.14.0.zip&response-content-type=application%2Foctet-stream HTTP/1.1" 200 1172523
+03/07/2024 04:01:49 PM: INFO: Driver downloading response is 200
+03/07/2024 04:01:49 PM: INFO: Get LATEST driver version for Internet Explorer
+03/07/2024 04:01:49 PM: DEBUG: Starting new HTTPS connection (1): api.github.com:443
+03/07/2024 04:01:49 PM: DEBUG: https://api.github.com:443 "GET /repos/seleniumhq/selenium/releases HTTP/1.1" 200 447971
+03/07/2024 04:01:49 PM: INFO: Get LATEST driver version for Internet Explorer
+03/07/2024 04:01:49 PM: DEBUG: Starting new HTTPS connection (1): api.github.com:443
+03/07/2024 04:01:49 PM: DEBUG: https://api.github.com:443 "GET /repos/seleniumhq/selenium/releases HTTP/1.1" 200 447971
+03/07/2024 04:01:50 PM: INFO: Driver has been saved in cache [C:\Users\WELCOME\.wdm\drivers\IEDriverServer\win64\4.14.0]
+03/07/2024 04:01:52 PM: DEBUG: Started executable: `C:\Users\WELCOME\.wdm\drivers\IEDriverServer\win64\4.14.0\IEDriverServer.exe` in a child process with pid: 2868
+03/07/2024 04:01:53 PM: DEBUG: POST http://localhost:52181/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "internet explorer", "platformName": "windows", "pageLoadStrategy": "normal"}}}
+03/07/2024 04:01:53 PM: DEBUG: Starting new HTTP connection (1): localhost:52181
+03/07/2024 04:02:10 PM: DEBUG: http://localhost:52181 "POST /session HTTP/1.1" 200 1077
+03/07/2024 04:02:10 PM: DEBUG: Remote response: status=200 | data={
+	"value" : 
+	{
+		"capabilities" : 
+		{
+			"acceptInsecureCerts" : false,
+			"browserName" : "internet explorer",
+			"browserVersion" : "11",
+			"pageLoadStrategy" : "normal",
+			"platformName" : "windows",
+			"proxy" : {},
+			"se:ieOptions" : 
+			{
+				"browserAttachTimeout" : 0,
+				"elementScrollBehavior" : 0,
+				"enablePersistentHover" : true,
+				"ie.browserCommandLineSwitches" : "",
+				"ie.edgechromium" : false,
+				"ie.edgepath" : "",
+				"ie.ensureCleanSession" : false,
+				"ie.fileUploadDialogTimeout" : 3000,
+				"ie.forceCreateProcessApi" : false,
+				"ie.ignoreprocessmatch" : false,
+				"ignoreProtectedModeSettings" : false,
+				"ignoreZoomSetting" : true,
+				"initialBrowserUrl" : "http://localhost:52181/",
+				"nativeEvents" : true,
+				"requireWindowFocus" : false
+			},
+			"setWindowRect" : true,
+			"strictFileInteractability" : false,
+			"timeouts" : 
+			{
+				"implicit" : 0,
+				"pageLoad" : 300000,
+				"script" : 30000
+			},
+			"unhandledPromptBehavior" : "dismiss and notify"
+		},
+		"sessionId" : "9b88957f-63da-420f-a1dc-208f1e2972ba"
+	}
+}
+ | headers=HTTPHeaderDict({'Content-Length': '1077', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'Vary': 'Accept-Charset, Accept-Encoding, Accept-Language, Accept', 'Accept-Ranges': 'bytes'})
+03/07/2024 04:02:10 PM: DEBUG: Finished Request
+03/07/2024 04:02:10 PM: INFO: ******Login Page Title Checking Start*******
+03/07/2024 04:02:10 PM: DEBUG: POST http://localhost:52181/session/9b88957f-63da-420f-a1dc-208f1e2972ba/timeouts {"implicit": 10000}
+03/07/2024 04:02:10 PM: DEBUG: http://localhost:52181 "POST /session/9b88957f-63da-420f-a1dc-208f1e2972ba/timeouts HTTP/1.1" 200 21
+03/07/2024 04:02:10 PM: DEBUG: Remote response: status=200 | data={
+	"value" : null
+}
+ | headers=HTTPHeaderDict({'Content-Length': '21', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-cache', 'Vary': 'Accept-Charset, Accept-Encoding, Accept-Language, Accept', 'Accept-Ranges': 'bytes'})
+03/07/2024 04:02:10 PM: DEBUG: Finished Request
+03/07/2024 04:02:10 PM: DEBUG: POST http://localhost:52181/session/9b88957f-63da-420f-a1dc-208f1e2972ba/url {"url": "https://admin-demo.nopcommerce.com/login"}
+03/07/2024 04:03:43 PM: DEBUG: driver not found in PATH, trying Selenium Manager
+03/07/2024 04:03:43 PM: DEBUG: Executing: C:\Users\WELCOME\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser edge
+03/07/2024 04:03:45 PM: DEBUG: Using driver at: C:\Users\WELCOME\.cache\selenium\msedgedriver\win64\122.0.2365.66\msedgedriver.exe
+03/07/2024 04:03:45 PM: DEBUG: Started executable: `msedgedriver` in a child process with pid: 7756
+03/07/2024 04:03:47 PM: DEBUG: POST http://localhost:52222/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "MicrosoftEdge", "pageLoadStrategy": "normal", "ms:edgeOptions": {"extensions": [], "args": []}}}}
+03/07/2024 04:03:47 PM: DEBUG: Starting new HTTP connection (1): localhost:52222
+03/07/2024 04:03:52 PM: DEBUG: http://localhost:52222 "POST /session HTTP/1.1" 200 854
+03/07/2024 04:03:52 PM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"MicrosoftEdge","browserVersion":"122.0.2365.66","fedcm:accounts":true,"ms:edgeOptions":{"debuggerAddress":"localhost:52227"},"msedge":{"msedgedriverVersion":"122.0.2365.66 (ab363614b8f04700fdbbc3d9d7f9deca8102a1c4)","userDataDir":"C:\\Users\\WELCOME\\AppData\\Local\\Temp\\scoped_dir7756_394931360"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"0d409438cb4840b5317f59a27b6d32b0"}} | headers=HTTPHeaderDict({'Content-Length': '854', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:03:52 PM: DEBUG: Finished Request
+03/07/2024 04:03:52 PM: INFO: ******Login Page Title Checking Start*******
+03/07/2024 04:03:52 PM: DEBUG: POST http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/timeouts {"implicit": 10000}
+03/07/2024 04:03:52 PM: DEBUG: http://localhost:52222 "POST /session/0d409438cb4840b5317f59a27b6d32b0/timeouts HTTP/1.1" 200 14
+03/07/2024 04:03:52 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:03:52 PM: DEBUG: Finished Request
+03/07/2024 04:03:52 PM: DEBUG: POST http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/url {"url": "https://admin-demo.nopcommerce.com/login"}
+03/07/2024 04:03:58 PM: DEBUG: http://localhost:52222 "POST /session/0d409438cb4840b5317f59a27b6d32b0/url HTTP/1.1" 200 14
+03/07/2024 04:03:58 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:03:58 PM: DEBUG: Finished Request
+03/07/2024 04:03:58 PM: DEBUG: POST http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/element {"using": "css selector", "value": "[id=\"Email\"]"}
+03/07/2024 04:03:58 PM: DEBUG: http://localhost:52222 "POST /session/0d409438cb4840b5317f59a27b6d32b0/element HTTP/1.1" 200 125
+03/07/2024 04:03:58 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.2"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:03:58 PM: DEBUG: Finished Request
+03/07/2024 04:03:58 PM: DEBUG: POST http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/element/f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.2/clear {"id": "f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.2"}
+03/07/2024 04:03:59 PM: DEBUG: http://localhost:52222 "POST /session/0d409438cb4840b5317f59a27b6d32b0/element/f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.2/clear HTTP/1.1" 200 14
+03/07/2024 04:03:59 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:03:59 PM: DEBUG: Finished Request
+03/07/2024 04:03:59 PM: DEBUG: POST http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/element {"using": "css selector", "value": "[id=\"Email\"]"}
+03/07/2024 04:03:59 PM: DEBUG: http://localhost:52222 "POST /session/0d409438cb4840b5317f59a27b6d32b0/element HTTP/1.1" 200 125
+03/07/2024 04:03:59 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.2"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:03:59 PM: DEBUG: Finished Request
+03/07/2024 04:03:59 PM: DEBUG: POST http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/element/f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.2/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.2"}
+03/07/2024 04:03:59 PM: DEBUG: http://localhost:52222 "POST /session/0d409438cb4840b5317f59a27b6d32b0/element/f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.2/value HTTP/1.1" 200 14
+03/07/2024 04:03:59 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:03:59 PM: DEBUG: Finished Request
+03/07/2024 04:03:59 PM: DEBUG: POST http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/element {"using": "css selector", "value": "[id=\"Password\"]"}
+03/07/2024 04:03:59 PM: DEBUG: http://localhost:52222 "POST /session/0d409438cb4840b5317f59a27b6d32b0/element HTTP/1.1" 200 125
+03/07/2024 04:03:59 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.3"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:03:59 PM: DEBUG: Finished Request
+03/07/2024 04:03:59 PM: DEBUG: POST http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/element/f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.3/clear {"id": "f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.3"}
+03/07/2024 04:03:59 PM: DEBUG: http://localhost:52222 "POST /session/0d409438cb4840b5317f59a27b6d32b0/element/f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.3/clear HTTP/1.1" 200 14
+03/07/2024 04:03:59 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:03:59 PM: DEBUG: Finished Request
+03/07/2024 04:03:59 PM: DEBUG: POST http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/element {"using": "css selector", "value": "[id=\"Password\"]"}
+03/07/2024 04:03:59 PM: DEBUG: http://localhost:52222 "POST /session/0d409438cb4840b5317f59a27b6d32b0/element HTTP/1.1" 200 125
+03/07/2024 04:03:59 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.3"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:03:59 PM: DEBUG: Finished Request
+03/07/2024 04:03:59 PM: DEBUG: POST http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/element/f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.3/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.3"}
+03/07/2024 04:03:59 PM: DEBUG: http://localhost:52222 "POST /session/0d409438cb4840b5317f59a27b6d32b0/element/f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.3/value HTTP/1.1" 200 14
+03/07/2024 04:03:59 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:03:59 PM: DEBUG: Finished Request
+03/07/2024 04:03:59 PM: DEBUG: POST http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/element {"using": "xpath", "value": "//div[@class='buttons']//button"}
+03/07/2024 04:03:59 PM: DEBUG: http://localhost:52222 "POST /session/0d409438cb4840b5317f59a27b6d32b0/element HTTP/1.1" 200 125
+03/07/2024 04:03:59 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.5"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:03:59 PM: DEBUG: Finished Request
+03/07/2024 04:03:59 PM: DEBUG: POST http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/element/f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.5/click {"id": "f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.5"}
+03/07/2024 04:04:06 PM: DEBUG: http://localhost:52222 "POST /session/0d409438cb4840b5317f59a27b6d32b0/element/f.BC785793757BBE1E3AC3A1317ED750B3.d.C497152D2FF293126D9C858BB251348B.e.5/click HTTP/1.1" 200 14
+03/07/2024 04:04:06 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:04:06 PM: DEBUG: Finished Request
+03/07/2024 04:04:06 PM: DEBUG: GET http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/title {}
+03/07/2024 04:04:06 PM: DEBUG: http://localhost:52222 "GET /session/0d409438cb4840b5317f59a27b6d32b0/title HTTP/1.1" 200 50
+03/07/2024 04:04:06 PM: DEBUG: Remote response: status=200 | data={"value":"Dashboard / nopCommerce administration"} | headers=HTTPHeaderDict({'Content-Length': '50', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:04:06 PM: DEBUG: Finished Request
+03/07/2024 04:04:06 PM: INFO: ***** Login Page Title Is Matched*****
+03/07/2024 04:04:06 PM: DEBUG: DELETE http://localhost:52222/session/0d409438cb4840b5317f59a27b6d32b0/window {}
+03/07/2024 04:04:12 PM: DEBUG: http://localhost:52222 "DELETE /session/0d409438cb4840b5317f59a27b6d32b0/window HTTP/1.1" 200 12
+03/07/2024 04:04:12 PM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+03/07/2024 04:04:12 PM: DEBUG: Finished Request
+03/07/2024 04:05:31 PM: DEBUG: driver not found in PATH, trying Selenium Manager
+03/07/2024 04:05:31 PM: DEBUG: Executing: C:\Users\WELCOME\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser firefox
+03/07/2024 04:05:32 PM: DEBUG: Using driver at: C:\Users\WELCOME\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+03/07/2024 04:05:33 PM: DEBUG: Started executable: `geckodriver` in a child process with pid: 8552
+03/07/2024 04:05:34 PM: DEBUG: POST http://localhost:52270/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true, "moz:debuggerAddress": true, "pageLoadStrategy": "normal"}}}
+03/07/2024 04:05:34 PM: DEBUG: Starting new HTTP connection (1): localhost:52270
+03/07/2024 04:05:36 PM: DEBUG: http://localhost:52270 "POST /session HTTP/1.1" 500 245
+03/07/2024 04:05:36 PM: DEBUG: Remote response: status=500 | data={"value":{"error":"session not created","message":"Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line","stacktrace":""}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '245', 'date': 'Thu, 07 Mar 2024 10:35:36 GMT'})
+03/07/2024 04:05:36 PM: DEBUG: Finished Request
